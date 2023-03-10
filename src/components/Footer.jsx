@@ -8,12 +8,16 @@ const Footer = () => {
         <a
           className="text-gray-300 px-3 hover:text-blue-600"
           href="https://www.linkedin.com/in/boobalan-s-89b81a169"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedin size={30} />
         </a>
         <a
           className="text-gray-300 px-3 hover:text-gray-600"
           href="https://github.com/boobalan08"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithub size={30} />
         </a>
