@@ -1,6 +1,7 @@
 import invento from "../assets/projects/Invento.png";
 import expense from "../assets/projects/Moneymanager.png";
 import movie from "../assets/projects/movie.png";
+import ecom from "../assets/projects/Ecommerce.png";
 
 export const data = [
   {
@@ -26,5 +27,13 @@ export const data = [
     github: "https://github.com/boobalan08/React-Movies_App",
     backend: "https://github.com/boobalan08/express",
     live: "https://movie-app-reacts.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Ecommerce App(MERN)",
+    image: ecom,
+    github: "https://github.com/boobalan08/ecommerce-frontend",
+    backend: "https://github.com/boobalan08/ecommerce-backend",
+    live: "https://asia-ecom-shop.netlify.app/",
   },
 ];

@@ -25,7 +25,6 @@ const Contact = () => {
         }
       );
   };
-  // flex justify-center items-center
   return (
     <section name="contact" className="w-full h-full bg-[#0a192f] py-4">
       <Toaster />
@@ -33,8 +32,8 @@ const Contact = () => {
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
           Contact
         </p>
-        <div className="text-center flex justify-center items-center mt-5">
-          <h5 className="text-gray-300 text-xl flex px-5">
+        <div className="text-center grid justify-center mt-5">
+          <h5 className="text-gray-300 text-xl flex py-3">
             <HiOutlineMail size={30} />
             <span className="px-2">boobalans42@gmail.com </span>
           </h5>
