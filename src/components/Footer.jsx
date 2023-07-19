@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="w-full flex justify-center items-center">
         <a
           className="text-gray-300 px-3 hover:text-blue-600"
-          href="https://www.linkedin.com/in/boobalan-s-89b81a169"
+          href="https://www.linkedin.com/in/boobalan08"
           target="_blank"
           rel="noopener noreferrer"
         >
