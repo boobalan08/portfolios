@@ -95,7 +95,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/boobalan-s-89b81a169"
+              href="https://www.linkedin.com/in/boobalan08"
               target="_blank"
               rel="noopener noreferrer"
             >
