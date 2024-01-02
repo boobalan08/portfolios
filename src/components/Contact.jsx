@@ -26,9 +26,9 @@ const Contact = () => {
       );
   };
   return (
-    <section name="contact" className="w-full h-full bg-[#0a192f] py-4">
+    <section name="contact" className="w-full h-full bg-[#0a192f] py-4 px-4">
       <Toaster />
-      <div className="pb-8  md:text-center lg:text-center">
+      <div className="py-8  md:text-center lg:text-center">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
           Contact
         </p>
@@ -55,23 +55,26 @@ const Contact = () => {
             type="text"
             placeholder="Name"
             name="name"
+            required
           />
           <input
             className="my-4 p-2 bg-[#ccd6f6]"
             type="email"
             placeholder="Email"
             name="email"
+            required
           />
           <textarea
             className="bg-[#ccd6f6] p-2"
             name="message"
             rows="6"
             placeholder="Message"
+            required
           ></textarea>
           <button
             type="submit"
             value="Send"
-            className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center"
+            className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center rounded-2xl font-semibold"
           >
             Let's Collaborate
           </button>

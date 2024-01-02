@@ -19,9 +19,11 @@ const About = () => {
           <div>
             <p className="text-2xl">
               I have completed a BE Mechanical Engineering at VSA College in
-              Salem.I was worked automobiles in 2 years,then i joined web
-              development to improve my career.Now,I am passionate about
-              building excellent responsive web application.
+              Salem.I work as a retail sales associate for automobile in 2
+              years. Then I am interested in switching careers in the software
+              development field.So I have developed my skills in web
+              development-related areas.Now,I am passionate about building
+              excellent responsive web application.
             </p>
           </div>
         </div>
